@@ -9,10 +9,10 @@ The predictor loads the `starvector/starvector-8b-im2svg` checkpoint on a GPU an
 ## Building and running
 
 ```sh
-cog predict
+cog predict -i image_path=@input.png
 ```
 
-`cog predict` builds the container and runs the predictor on an image.
+That builds the container and runs the predictor on `input.png`.
 
 ## Licence
 
